@@ -1,0 +1,28 @@
+;;; VLisp project file [V2.0] Escalier_balance saved to:[F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Escalier_balance] at:[10/16/14] 
+(VLISP-PROJECT-LIST
+  :NAME
+  Escalier_balance
+  :OWN-LIST
+  ("F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Escalier_balance/Escalier_balance"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Entites"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Liste"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Vecteur&Matrice"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Courbe"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Selection")
+  :FAS-DIRECTORY
+  "F:\\Documents\\Acad\\AutoLisp\\Utilitaires_AutoLisp\\Escalier_balance"
+  :TMP-DIRECTORY
+  "F:\\Documents\\Acad\\AutoLisp\\Utilitaires_AutoLisp\\Escalier_balance\\tmp"
+  :PROJECT-KEYS
+  (:BUILD (:OPTIMIZE :LOCALIZE :MAKE-INTERNAL)
+	  :MERGED
+	  T
+	  :SAFE-MODE
+	  T
+	  :MSGLEVEL
+	  2
+  )
+  :CONTEXT-ID
+  :AUTOLISP
+)
+;;; EOF

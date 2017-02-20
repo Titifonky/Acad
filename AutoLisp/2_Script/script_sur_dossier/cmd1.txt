@@ -1,0 +1,14 @@
+_ucsicon
+_no
+changer
+TOUT 
+p
+CO
+DUCALQUE 
+-purger
+to 
+n
+zoom
+et
+_qsave
+2000 

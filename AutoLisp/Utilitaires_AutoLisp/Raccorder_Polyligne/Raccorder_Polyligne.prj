@@ -1,0 +1,28 @@
+;;; VLisp project file [V2.0] Raccorder_Polyligne saved to:[F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Raccorder_Polyligne] at:[6/12/13] 
+(VLISP-PROJECT-LIST
+  :name
+  Raccorder_Polyligne
+  :own-list
+  ("F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Raccorder_Polyligne/RaccordPolylignes_V3"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Courbe"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Entites"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Liste"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Vecteur&Matrice"
+  )
+  :fas-directory
+  "D:\\Mes documents\\Acad - Personalisation\\AutoLisp\\Utilitaires_AutoLisp\\Raccorder_Polyligne"
+  :tmp-directory
+  "D:\\Mes documents\\Acad - Personalisation\\AutoLisp\\Utilitaires_AutoLisp\\Raccorder_Polyligne"
+  :project-keys
+  (:BUILD (:OPTIMIZE :LOCALIZE :MAKE-INTERNAL)
+	  :MERGED
+	  T
+	  :SAFE-MODE
+	  T
+	  :MSGLEVEL
+	  1
+  )
+  :context-id
+  :AUTOLISP
+)
+;;; EOF

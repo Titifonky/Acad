@@ -1,0 +1,8 @@
+(defun c:CA( / cdme )
+        (setq cmde (GETVAR "CMDECHO"))
+        (setvar "CMDECHO" 1)
+        (command "_undo" "_m")
+        (COMMAND "_BREAK" pause "_first" pause pause)
+        (setvar "CMDECHO" cmde)
+        (princ)
+)

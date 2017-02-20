@@ -1,0 +1,22 @@
+;;; VLisp project file [V2.0] Decaler_Polyligne saved to:[F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Decaler_Polyligne] at:[6/11/13] 
+(VLISP-PROJECT-LIST
+  :NAME
+  Decaler_Polyligne
+  :OWN-LIST
+  ("F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Decaler_Polyligne/RaccordPolylignes_v2"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Boolean"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Courbe"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Entites"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Liste"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Nombre&Angle"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Vecteur&Matrice")
+  :FAS-DIRECTORY
+  nil
+  :TMP-DIRECTORY
+  nil
+  :PROJECT-KEYS
+  (:BUILD (:standard))
+  :CONTEXT-ID
+  :AUTOLISP
+)
+;;; EOF

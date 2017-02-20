@@ -1,0 +1,66 @@
+;;; ADP Crée une anse de panier (polyligne à 3 arcs)
+
+(defun c:adp (/ doc sp p1 p2 p3 p4 p5 a1 a2 r z pline)
+  (vl-load-com)
+  (setq	doc (vla-get-ActiveDocument (vlax-get-acad-object))
+	sp  (if	(= (getvar "CVPORT") 1)
+	      (vla-get-PaperSpace doc)
+	      (vla-get-ModelSpace doc)
+	    )
+  )
+  (initget 1)
+  (setq	p1 (getpoint "\nDépart de l'anse: ")
+	p2 p1
+  )
+  (while (equal p1 p2)
+    (setq p2 (getpoint p1 "\nExtrémité de l'anse: "))
+  )
+  (setq	p3 (mapcar '(lambda (x1 x2) (/ (+ x1 x2) 2)) p1 p2)
+	p4 p3
+  )
+  (while (equal p3 p4)
+    (setq p4 (polar p3
+		    (+ (angle p2 p1) (/ pi 2))
+		    (getdist p3 "\nHauteur de l'anse: ")
+	     )
+    )
+  )
+  (setq	a1 (atan (distance p3 p4) (distance p1 p3))
+	a2 (atan (distance p1 p3) (distance p3 p4))
+	r (/ (* (distance p1 p4) (+ 1 (cos a1) (- (sin a1))))
+	     (* 2 (sin a1))
+	  )
+	;|(/ (*	(distance p1 p4)
+		(+ (distance p1 p4) (distance p1 p3) (- (distance p3 p4)))
+	     )
+	     (* 2 (distance p3 p4))
+	  )|;
+	p5 (polar p4 (+ (angle p1 p2) (/ pi 2)) r)
+	z  (trans '(0 0 1) 1 0 T)
+  )
+  (vla-StartUndoMark doc)
+  (setq	pline
+	 (vlax-Invoke
+	   sp
+	   'addLightWeightPolyline
+	   (apply 'append
+		  (mapcar '(lambda (p)
+			     (setq p (trans p 1 z))
+			     (list (car p) (cadr p))
+			   )
+			  (list	p1
+				(polar p5 (- (angle p5 p4) a1) r)
+				(polar p5 (+ (angle p5 p4) a1) r)
+				p2
+			  )
+		  )
+	   )
+	 )
+  )
+  (vla-setBulge pline 0 (/ (sin (/ a2 4.0)) (cos (/ a2 4.0))))
+  (vla-setBulge pline 1 (/ (sin (/ a1 2.0)) (cos (/ a1 2.0))))
+  (vla-setBulge pline 2 (/ (sin (/ a2 4.0)) (cos (/ a2 4.0))))
+  (vla-put-elevation pline (caddr (trans p1 1 z)))
+  (vla-EndUndoMark doc)
+  (princ)
+)

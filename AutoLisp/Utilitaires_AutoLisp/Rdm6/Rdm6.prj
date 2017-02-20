@@ -1,0 +1,21 @@
+;;; VLisp project file [V2.0] Rdm6 saved to:[F:/Mes documents/Acad/AutoLisp/Utilitaires_AutoLisp/Rdm6] at:[4/2/16] 
+(VLISP-PROJECT-LIST
+  :name
+  Rdm6
+  :own-list
+  ("Rdm6"
+  "F:/Mes documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Liste"
+	 "F:/Mes documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Selection"
+	 "F:/Mes documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/String"
+	 "F:/Mes documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Vecteur&Matrice"
+  )
+  :fas-directory
+  "F:/Mes documents/Acad/AutoLisp/Utilitaires_AutoLisp/Rdm6"
+  :tmp-directory
+  "F:\\Mes documents\\Acad\\AutoLisp\\Utilitaires_AutoLisp\\Rdm6\\tmp"
+  :project-keys
+  (:BUILD (:standard) :MERGED T :SAFE-MODE T :MSGLEVEL 1)
+  :context-id
+  :AUTOLISP
+)
+;;; EOF

@@ -1,0 +1,28 @@
+;;; VLisp project file [V2.0] Diviser_Courbe saved to:[F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Diviser_courbe] at:[10/9/14] 
+(VLISP-PROJECT-LIST
+  :NAME
+  Diviser_Courbe
+  :OWN-LIST
+  ("F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Selection"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Courbe"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Liste"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Nombre&Angle"
+    "F:/Documents/Acad/AutoLisp/Utilitaires_AutoLisp/Bibliotheque/Vecteur&Matrice"
+    "Main")
+  :FAS-DIRECTORY
+  "F:\\Documents\\Acad\\AutoLisp\\Utilitaires_AutoLisp\\Diviser_courbe"
+  :TMP-DIRECTORY
+  "F:\\Documents\\Acad\\AutoLisp\\Utilitaires_AutoLisp\\Diviser_courbe\\tmp"
+  :PROJECT-KEYS
+  (:BUILD (:OPTIMIZE :LOCALIZE :MAKE-INTERNAL)
+	  :MERGED
+	  T
+	  :SAFE-MODE
+	  T
+	  :MSGLEVEL
+	  1
+  )
+  :CONTEXT-ID
+  :AUTOLISP
+)
+;;; EOF

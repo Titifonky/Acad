@@ -1,0 +1,177 @@
+FlatLand.arx  Copyright 2002  Tony Tanzillo   All rights reserved
+
+IMPORTANT: DO NOT MODIFY THIS FILE
+
+This license file is required by FlatLand.arx. It must reside in
+the same folder where FlatLand.arx is located. If this file is not
+present in the same folder as Flatland.arx, or if this file has 
+been altered from its original distributed form, FlatLand.arx will 
+not function.
+
+In order to be entitled to use FlatLand.arx, you must read and
+agree to this software license agreement.
+
+-------------------------------------------------------------------------
+
+END-USER SOFTWARE LICENSE AGREEMENT
+
+This End-User License Agreement (EULA) is a legal agreement between you
+(either an individual or a single entity) and Tony Tanzillo (the AUTHOR) for
+the computer software known as "flatland.arx", which includes the computer
+software, associated media and printed materials, and online or electronic
+documentation (herinafter referred to as the SOFTWARE).
+
+By installing the SOFTWARE, you agree to be bound by the terms of this EULA.
+If you do not agree to the terms of this EULA, promptly divest this copy and
+all other copies of the SOFTWARE from your possession.
+
+SOFTWARE LICENSE
+
+The SOFTWARE is protected by copyright laws and international copyright
+treaties, as well as other intellectual property laws and treaties. The
+SOFTWARE is licensed, not sold.
+
+1. GRANT OF LICENSE.
+
+This EULA grants you the following rights:
+
+a.  Personal Use.
+
+You may use the SOFTWARE for any personal, non-commercial purpose limited
+to use in your home or place of business. You may NOT redistribute this
+SOFTWARE to others.
+
+b.  Storage/Network Use.
+
+You may also store or install a copy of the SOFTWARE on a storage device,
+such as a network server, used only to install or run the SOFTWARE on your
+other computers over a network; however, you must acquire and dedicate a
+license for each separate computer on which the SOFTWARE is installed or run
+from the storage device. A license for the SOFTWARE may not be shared or used
+concurrently on different computers.
+
+2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS.
+
+a. Limitations on Reverse Engineering, Decompilation, and Disassembly.
+
+You may not reverse engineer, decompile, or disassemble the SOFTWARE, except
+and only to the extent that such activity is expressly permitted by
+applicable law notwithstanding this limitation.
+
+b. Separation of Components.
+
+The SOFTWARE is licensed as a single product. Its component parts may not be
+separated for use on more than one computer.
+
+c. Distribution.
+
+You may distribute copies of the SOFTWARE privately, but you may
+not make copies of the software available electronically, except
+as provided herein.
+
+You may may place a copy of the software on a web site, provided
+the website complies with ALL of the following 9 conditions:
+
+	1. You are the legal owner/operator of the web site,
+	   or you are acting as the legal representative of
+	   the owner/operator of the web site, and you are
+	   authorized by the owner to approve site content.
+
+	2. The software is not modified from its original
+	   distributed form (an archives that includes the
+	   program executable, this license agreement and
+	   all documentation).
+
+	3. The web site is freely accessable to anyone without
+	   charge or subscription fee, and requires no password
+	   or user registration to gain access to the software.
+
+	4. The web site does not collect marketing data
+	   explicitly or implicitly, with or without the
+	   visitor's knowledge.
+
+	5. The web site does not require any kind of personal
+	   information to be entered by the visitor in order
+	   to gain access to the software.
+
+	6. There is no commercial advertising of any kind,
+	   appearing anywhere on the site or the same top
+	   level domain containing the site.
+
+	7. The website and its contents do not infringe upon
+	   any legal copyrights owned by the AUTHOR.
+
+	8. The website or its contents do not infringe upon
+	   any trademark used by the AUTHOR.
+
+	9. The following link to the AUTHOR's web site is
+	   included on the same page as the link to the
+	   software, and is identified as the site of the
+	   AUTHOR of the SOFTWARE:
+
+         "http://www.caddzone.com"
+
+d. Lease and Rental.
+
+You may not rent or lease the SOFTWARE to others.
+
+e. Termination.
+
+Without prejudice to any other rights, the AUTHOR may terminate this EULA if
+you fail to comply with the terms and conditions of this EULA. In such event,
+you must divest all copies of the SOFTWARE from your possession.
+
+3. COPYRIGHT.
+
+All title and copyrights in and to the SOFTWARE (including but not limited to
+images, photographs, animations, video, audio, music, and text, incorporated
+into the SOFTWARE), the accompanying printed materials, and any copies of the
+SOFTWARE, are the property of the AUTHOR.
+
+The SOFTWARE is protected by copyright laws and international treaty
+provisions. Therefore, you must treat the SOFTWARE like any other copyrighted
+material except that you may either (a) make one copy of the SOFTWARE solely
+for backup or archival purposes, or (b) install the SOFTWARE on a single
+computer provided you keep the original solely for backup or archival
+purposes. You may not copy the printed materials accompanying the SOFTWARE.
+
+Violation of copyright law is punishable by criminal and civil actions.
+
+4. U.S. GOVERNMENT RESTRICTED RIGHTS.
+
+This SOFTWARE and documentation are provided with RESTRICTED
+RIGHTS.
+
+Use, duplication, or disclosure by the Government is subject to restrictions
+as set forth in subparagraph (c)(1)(ii) of the Rights in Technical Data and
+Computer Software clause at DFARS 252.227-7013 or subparagraphs (c)(1) and
+(2) of the Commercial Computer Software Restricted Rights at 48 CFR
+52.227-19, as applicable. The manufacturer of this SOFTWARE is Tony Tanzillo,
+Design Automation Consulting.
+
+5. JURISDICTION
+
+If you acquired this product in the United States, this EULA is governed by
+the laws of the State of New Jersey.
+
+6. NO WARRANTY
+
+ANY USE OF THIS SOFTWARE IS AT YOUR OWN RISK.  THE SOFTWARE IS PROVIDED FOR
+USE "AS IS" AND WITHOUT WARRANTY OF ANY  KIND. TO THE MAXIMUM EXTENT
+PERMITTED BY APPLICABLE LAW, THE  AUTHOR DISCLAIMS ALL WARRANTIES, EXPRESS OR
+IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS FOR A PARTICULAR PURPOSE, WITH REGARD TO THE SOFTWARE.
+
+7. NO LIABILITY FOR CONSEQUENTIAL DAMAGES.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+AUTHOR OR ITS SUPPLIERS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR
+CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR
+LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS
+INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OF OR
+INABILITY TO USE THE SOFTWARE PRODUCT, EVEN IF THE AUTHOR HAS BEEN ADVISED OF
+THE POSSIBILITY OF SUCH DAMAGES.
+
+BECAUSE SOME JURISDICTIONS DO NOT ALLOW EXCLUSION OR LIMITATION OF LIABILITY
+FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY
+TO YOU.
