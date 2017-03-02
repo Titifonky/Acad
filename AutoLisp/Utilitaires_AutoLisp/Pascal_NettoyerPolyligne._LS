@@ -1,6 +1,9 @@
 (vl-load-com)
 
-(defun c:NP (/ Deviation Rayon trunc butlast sublist split-list	rot1 v2d Courbe-Intersection)
+(defun c:NP (/		  Deviation    Rayon	    trunc
+	     butlast	  sublist      split-list   rot1
+	     v2d	  Courbe-Intersection
+	    )
 
 ;;; SUPPRIMER LES RAYONS DE COURBURE TROP PETIT
 
@@ -147,6 +150,3 @@
 
   (princ)
 )
-;|«Visual LISP© Format Options»
-(100 2 40 2 nil "Fin de " 100 9 0 0 0 T T nil T)
-;*** NE PAS AJOUTER de texte au-dessous du commentaire! ***|;
