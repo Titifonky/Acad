@@ -1,7 +1,4 @@
-(defun c:OPL (/ CMDECHO CN DENT ENT LST N NLST SEL tol)
-  (setq tol (getreal "\nTolerance d'alignement entre les trois point")
-	tol (if (= tol 0.0) 1e-009 tol)
-	)
+(defun c:OPL (/ CMDECHO CN DENT ENT LST N NLST SEL)
   (princ "\nSélectionner les polylignes à optimiser : ")
   (setq cmdecho (getvar "cmdecho"))
   (setvar "cmdecho" 0)
@@ -12,7 +9,7 @@
 	(setq ent  (ssname sel (setq cn (1- cn)))
 	      dent (entget ent)
 	      lst  (remove-doubles
-		     (remove-align (vl-remove-if-not '(lambda (x) (= (car x) 10)) (entget ent)) tol)
+		     (remove-align (vl-remove-if-not '(lambda (x) (= (car x) 10)) (entget ent)))
 		   )
 	)
 	(foreach pt (remove-all lst (vl-remove-if-not '(lambda (x) (= (car x) 10)) (entget ent)))
@@ -45,9 +42,9 @@
 
 ;;; REMOVE-ALIGN De GILE
 
-(defun remove-align (lst tol / rslt)
+(defun remove-align (lst / rslt)
   (while (caddr lst)
-    (if	(betweenp (car lst) (caddr lst) (cadr lst) tol)
+    (if	(betweenp (car lst) (caddr lst) (cadr lst))
       (setq lst (cons (car lst) (cddr lst)))
       (setq rslt (cons (car lst) rslt)
 	    lst	 (cdr lst)
@@ -77,8 +74,8 @@
 ;;; BETWEENP Evalue si pt est entre p1 et p2 (ou égal à)
 ;;;Lisp de GILE
 
-(defun betweenp	(p1 p2 pt tol)
-  (or (equal p1 pt 1e-9) (equal p2 pt 1e-9) (equal (distance (vec1 p1 pt) (vec1 pt p2)) tol))
+(defun betweenp	(p1 p2 pt)
+  (or (equal p1 pt 1e-9) (equal p2 pt 1e-9) (equal (vec1 p1 pt) (vec1 pt p2) 1e-9))
 )
 
 

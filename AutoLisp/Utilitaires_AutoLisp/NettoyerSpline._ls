@@ -1,0 +1,12 @@
+(defun c:cvsp (/ sset i ent)
+  (setq	sset (ssget '((0 . "SPLINE")))
+	i    0
+  )
+  (repeat (sslength sset)
+    (setq ent (ssname sset i)
+	  i   (1+ i)
+    )
+    (princ (massoc '10 (entget ent)))
+  )
+  (setq sset nil)
+)
